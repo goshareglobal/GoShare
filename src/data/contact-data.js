@@ -6,19 +6,37 @@ import {
 
 export const contactData = [
   {
-    title: "Excelent Services",
+    title: "Peer to peer computing",
     icon: StarIcon,
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
-    title: "Grow Your Market",
+    title: "Enterprise level web3 implementation",
     icon: PresentationChartLineIcon,
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
-    title: "Launch Time",
+    title: "Smart contract implementation ",
+    icon: RocketLaunchIcon,
+    description:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    title: "Full NFT suite",
+    icon: StarIcon,
+    description:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    title: "full-scale marketplace",
+    icon: PresentationChartLineIcon,
+    description:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    title: "Metaverse service",
     icon: RocketLaunchIcon,
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",

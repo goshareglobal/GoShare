@@ -14,26 +14,32 @@ import { PageTitle, Footer } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
 
+import bgVideo from "../../public/video/bg.mp4";
+import Hero from "../../public/img/hero.png"
+
 export function Home() {
   return (
     <>
-      <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')] bg-cover bg-center" />
+      <div className="relative flex h-screen content-center items-center justify-center pb-32 pt-16">
+        <video autoPlay loop muted className="absolute w-full">
+          <source src={bgVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        {/* <div className="absolute top-0 h-full w-full bg-[url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')] bg-cover bg-center" /> */}
+        <div className="bgVideo absolute top-0 h-full  w-full !bg-cover !bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
-            <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
+            <div className="ml-auto mr-auto w-full px-4 text-center lg:w-full">
               <Typography
                 variant="h1"
                 color="white"
-                className="mb-6 font-black"
+                className="mb-1 font-black lg:mt-[32vw]"
               >
-                Your story starts with us.
+                Empower you build your Game, NFT, token, blockchain.
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                This is a simple example of a Landing Page you can build using
-                Material Tailwind. It features multiple components based on the
-                Tailwind CSS and Material Design by Google.
+                We develop cutting-edge blockchain technologies
               </Typography>
             </div>
           </div>
@@ -76,29 +82,27 @@ export function Home() {
                 faster. You can change the text and images and you're good to
                 go. Just make sure you enable them first via JavaScript.
               </Typography>
-              <Button variant="outlined">read more</Button>
             </div>
-            <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
+            <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-5/12 lg:mt-0">
               <Card className="shadow-lg shadow-gray-500/10">
-                <CardHeader className="relative h-56">
+                <CardHeader className="relative ">
                   <img
                     alt="Card Image"
-                    src="/img/teamwork.jpeg"
+                    src="/img/teamwork.png"
                     className="h-full w-full"
                   />
                 </CardHeader>
                 <CardBody>
                   <Typography
                     variant="h5"
-                    color="blue-gray"
+                    color="black"
                     className="mb-3 font-bold"
                   >
-                    Top Notch Services
+                    Goshare Team Lorem Ipsum sit damet
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus vel metus odio. Mauris egestas ultricies mattis.
                   </Typography>
                 </CardBody>
               </Card>
@@ -106,7 +110,7 @@ export function Home() {
           </div>
         </div>
       </section>
-      <section className="px-4 pt-20 pb-48">
+      {/* <section className="px-4 pb-48 pt-20">
         <div className="container mx-auto">
           <PageTitle heading="Here are our heroes">
             According to the National Oceanic and Atmospheric Administration,
@@ -133,15 +137,16 @@ export function Home() {
             ))}
           </div>
         </div>
-      </section>
-      <section className="relative bg-blue-gray-50/50 py-24 px-4">
+      </section> */}
+      <section className="relative bg-blue-gray-50/50 px-4 py-24">
         <div className="container mx-auto">
-          <PageTitle heading="Build something">
-            Put the potentially record low maximum sea ice extent tihs year down
-            to low ice. According to the National Oceanic and Atmospheric
-            Administration, Ted, Scambos.
+          <PageTitle heading="Explore our Services">
+            Our team of experienced developers, architects and designers provide
+            clients with cost-effective, reliable custom blockchain solutions.
+            We will work with you to leverage this technology to meet your
+            unique business needs.
           </PageTitle>
-          <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto mb-48 mt-20 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (
               <Card
                 key={title}
@@ -163,6 +168,11 @@ export function Home() {
               </Card>
             ))}
           </div>
+          <div className="">
+          <img src={Hero} alt="Hero" className="absolute left-0 object-cover  "/>
+          </div>
+
+          <div className="mt-[40vw]">
           <PageTitle heading="Want to work with us?">
             Complete this form and we will get back to you in 24 hours.
           </PageTitle>
@@ -176,6 +186,7 @@ export function Home() {
               Send Message
             </Button>
           </form>
+          </div>
         </div>
       </section>
       <div className="bg-blue-gray-50/50">

@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { Typography, IconButton } from "@material-tailwind/react";
+import Logo from "../../../public/img/iconFooter.svg"
 
 const year = new Date().getFullYear();
 
@@ -9,9 +10,14 @@ export function Footer({ title, description, socials, menus, copyright }) {
       <div className="container mx-auto">
         <div className="flex flex-wrap pt-6 text-center lg:text-left">
           <div className="w-full px-4 lg:w-6/12">
-            <Typography variant="h4" className="mb-4" color="blue-gray">
+            {/* <Typography variant="h4" className="mb-4" color="blue-gray">
               {title}
-            </Typography>
+            </Typography> */}
+            <img
+            src={Logo}
+            width="150"
+            height="150"
+          />
             <Typography className="font-normal text-blue-gray-500">
               {description}
             </Typography>
@@ -154,15 +160,8 @@ Footer.defaultProps = {
   ],
   copyright: (
     <>
-      Copyright © {year} Material Tailwind by{" "}
-      <a
-        href="https://www.creative-tim.com?ref=mtk"
-        target="_blank"
-        className="text-blue-gray-500 transition-colors hover:text-blue-500"
-      >
-        Creative Tim
-      </a>
-      .
+      Copyright © {year}  Goshare Sdn Bhd.{" "}
+     
     </>
   ),
 };
