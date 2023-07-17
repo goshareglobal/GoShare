@@ -36,7 +36,7 @@ export function Home() {
                 color="white"
                 className="mb-1 font-black lg:mt-[32vw]"
               >
-                Propelling Your Journey in Interactive Gaming, Catalyzing Progress in the Blockchain & NFT Landscape.
+                Empowering Your Metaverse Journey, Catalyzing Blockchain & NFT Advancements
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
                 We develop cutting-edge blockchain technologies
