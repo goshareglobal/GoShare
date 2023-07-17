@@ -2,12 +2,17 @@ import {
   StarIcon,
   PresentationChartLineIcon,
   RocketLaunchIcon,
+  ComputerDesktopIcon,
+  DocumentCheckIcon,
+  ShoppingCartIcon
 } from "@heroicons/react/24/solid";
+
+
 
 export const contactData = [
   {
     title: "Peer to peer computing",
-    icon: StarIcon,
+    icon: ComputerDesktopIcon,
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
@@ -19,7 +24,7 @@ export const contactData = [
   },
   {
     title: "Smart contract implementation ",
-    icon: RocketLaunchIcon,
+    icon: DocumentCheckIcon,
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
@@ -31,7 +36,7 @@ export const contactData = [
   },
   {
     title: "full-scale marketplace",
-    icon: PresentationChartLineIcon,
+    icon: ShoppingCartIcon,
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
