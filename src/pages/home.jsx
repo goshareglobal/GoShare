@@ -168,8 +168,8 @@ export function Home() {
               </Card>
             ))}
           </div>
-          <div className="">
-          <img src={Hero} alt="Hero" className="absolute left-0 object-cover  "/>
+          <div className="container mx-auto">
+          <img src={Hero} alt="Hero" className="absolute left-0 object-cover  w-full"/>
           </div>
 
           <div className="mt-[40vw]">
