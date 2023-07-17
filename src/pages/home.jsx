@@ -36,7 +36,7 @@ export function Home() {
                 color="white"
                 className="mb-1 font-black lg:mt-[32vw]"
               >
-                Empower you build your Game, NFT, token, blockchain.
+                Propelling Your Journey in Interactive Gaming, Catalyzing Progress in the Blockchain & NFT Landscape.
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
                 We develop cutting-edge blockchain technologies
@@ -70,17 +70,13 @@ export function Home() {
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-                Working with us is a pleasure
+                Delighting Our Clients: A Pleasure to Partner With
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
+              We're dedicated to ensuring your journey with us is smooth and efficient, marked by responsiveness and a keen focus on your needs.
                 <br />
                 <br />
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
+                We don't just aim to meet expectations; our mission is to consistently exceed them, delivering superior results that truly set us apart.
               </Typography>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-5/12 lg:mt-0">
@@ -98,11 +94,10 @@ export function Home() {
                     color="black"
                     className="mb-3 font-bold"
                   >
-                    Goshare Team Lorem Ipsum sit damet
+                    The GoShare Team
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vivamus vel metus odio. Mauris egestas ultricies mattis.
+                  Partnering with Global Leaders: Our team stands ready, delivering transformative solutions in collaboration with multinational powerhouses.
                   </Typography>
                 </CardBody>
               </Card>

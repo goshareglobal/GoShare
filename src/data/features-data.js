@@ -7,24 +7,24 @@ import {
 export const featuresData = [
   {
     color: "blue",
-    title: "Metaverse service",
+    title: "Metaverse",
     icon: StarIcon,
     description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+      "Crafting Immersive Metaverses: Bridging physical and virtual worlds for a truly transformative experience.",
   },
   {
     color: "red",
-    title: "Enterprise level web3 implementation",
+    title: "Enterprise Level Web3 Implementation",
     icon: ArrowPathIcon,
     description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+      "Enabling Future-Ready Businesses: Seamlessly integrating Web3 technologies for enterprise-level transformations.",
   },
   {
     color: "teal",
-    title: "Smart contract implementation ",
+    title: "Smart Contract Implementation ",
     icon: FingerPrintIcon,
     description:
-      "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+      "Securing Digital Trust: Implementing smart contracts to automate and ensure the integrity of blockchain transactions.",
   },
 ];
 
